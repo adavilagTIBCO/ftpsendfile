@@ -1,0 +1,47 @@
+{
+  "name": "ftpsendfile",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Activity to upload a file via FTP",
+  "author": "Antonio Davila adavilag@tibco.com>",
+  "inputs":[
+    {
+      "name": "server",
+      "type": "string"
+    },
+    {
+      "name": "port",
+      "type": "int"
+    },
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "password",
+      "type": "string"
+    },
+    {
+      "name": "filesrc",
+      "type": "string"
+    },
+    {
+      "name": "pathsrc",
+      "type": "string"
+    },
+    {
+      "name": "filedest",
+      "type": "string"
+    },
+    {
+      "name": "pathdest",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
